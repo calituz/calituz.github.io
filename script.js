@@ -49,9 +49,9 @@ function handleClick(e){
 
 function endGame(draw){
     if (draw){
-        winningMessageTextElement.innerText = "Draw!"
+        winningMessageTextElement.innerText = "CHUPATE UN PINGAZO!"
     } else {
-        winningMessageTextElement.innerText = `${circleTurn ? "CHUPATE UN PINGAZO" : "CHUPATE UN PINGAZO"} Wins!`
+        winningMessageTextElement.innerText = `${circleTurn ? "CHUPATE UN PINGAZO!" : "CHUPATE UN PINGAZO!"}`
     }
     winningMessageElement.classList.add("show")
 }
